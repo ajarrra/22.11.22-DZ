@@ -8,36 +8,55 @@ main {
     flex-wrap: wrap;
     max-width: 980px;
     margin: 0px auto;
+    color: aliceblue;
+    font-size: 20px;
 }
 
 header{
 background-color: aqua;
 flex: 0 0 100%;
-padding: 25px 50px;
+padding: 35px 60px;
 }
 
 .main-content{
     background-color: greenyellow;
-    padding: 45px 65px;
-    margin: 0 auto;
-    max-width: 250px;
-    
+    padding: 95px 101px;
+    margin-left: 230px;
+   
+    justify-content: baseline;
+    margin-top: 5px;
 }
 
 .sidebar{
     background-color: blueviolet;
-    padding: 25px 30px;
-    margin: 0 auto;
-    max-width: 150px;
+    margin-top: 5px;
+    padding: 95px 70px;
+    
+   
+    margin-right: 230px;
+    margin-left: 5px;
+    text-align: center;
 }
 
 .twin{
     background-color: orange;
-    padding: 35px 45px; 
-    max-width: 200px;               
+    padding: 80px 108px; 
+    
+    margin-left: 230px;
+    margin-top: 5px;
 }
+
+.twinn{
+    background-color: orange;
+    padding: 80px 109px; 
+   
+    margin-left: 5px ;
+    margin-top: 5px;
+}
+
 footer{
     background-color: blue;
     flex: 0 0 100%;
-    padding: 25px 50px;
+    padding: 35px 60px;
+    margin-top: 5px;
 }
