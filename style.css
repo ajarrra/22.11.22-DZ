@@ -7,7 +7,7 @@ main {
     border: 2px solid gray;
     flex-wrap: wrap;
     max-width: 980px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 header{
@@ -18,15 +18,23 @@ padding: 25px 50px;
 
 .main-content{
     background-color: greenyellow;
+    padding: 45px 65px;
+    margin: 0 auto;
+    max-width: 250px;
     
 }
 
 .sidebar{
     background-color: blueviolet;
+    padding: 25px 30px;
+    margin: 0 auto;
+    max-width: 150px;
 }
 
 .twin{
     background-color: orange;
+    padding: 35px 45px; 
+    max-width: 200px;               
 }
 footer{
     background-color: blue;
