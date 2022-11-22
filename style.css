@@ -2,7 +2,34 @@
     box-sizing: border-box;
 }
 
-header{
+main {
     display: flex;
-    background-color: aqua;
+    border: 2px solid gray;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+header{
+background-color: aqua;
+flex: 0 0 100%;
+padding: 25px 50px;
+}
+
+.main-content{
+    background-color: greenyellow;
+    
+}
+
+.sidebar{
+    background-color: blueviolet;
+}
+
+.twin{
+    background-color: orange;
+}
+footer{
+    background-color: blue;
+    flex: 0 0 100%;
+    padding: 25px 50px;
 }
